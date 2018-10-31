@@ -1,10 +1,10 @@
 {
   "name": "API",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +12,10 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.4",
+    "monk": "^6.0.6",
     "mysql": "^2.16.0",
     "nodemon": "^1.18.5"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
