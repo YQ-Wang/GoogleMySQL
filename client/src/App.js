@@ -17,7 +17,7 @@ class App extends Component {
   }
   
   getData = _ => {
-    fetch('http://localhost:4000')
+    fetch('https://ece4970-221013.appspot.com/')
       .then(response => response.json())
       .then(response => this.setState({ data: response.data }))
       .catch(err => console.error(err))
